@@ -14,7 +14,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const db = new sqlite3.Database(
-  path.join(__dirname, "../scraper/news_pulse.db")
+  path.join(__dirname, "news_pulse.db")
 );
 
 app.use(cors());
